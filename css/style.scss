@@ -102,11 +102,11 @@ header {
       position: relative;
       // margin: auto;
 //      width: auto;
-      max-height: 200px;
+      max-height: 250px;
       height: auto;
-      width: 100%;
+      width: auto;
       background-size: cover;
-      background-position: center center;
+      background-position: center;
   }
   p {
     font-size: 1.6rem;
@@ -247,8 +247,10 @@ footer {
       // margin: auto;
 //      width: auto;
       max-height: 500px;
+//      max-height: 100%;
       height: auto;
-      width: 100%;
+      width: auto;
+//      width: 100%;
       // background-size: cover;
       // background-position: center center;
   }

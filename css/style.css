@@ -79,11 +79,11 @@ header .site-title {
 header .top-img {
   display: block;
   position: relative;
-  max-height: 200px;
+  max-height: 250px;
   height: auto;
-  width: 100%;
+  width: auto;
   background-size: cover;
-  background-position: center center; }
+  background-position: center; }
 header p {
   font-size: 1.6rem; }
 
@@ -188,7 +188,7 @@ footer {
     position: relative;
     max-height: 500px;
     height: auto;
-    width: 100%; }
+    width: auto; }
 
   #contents .container {
     -webkit-flex-direction: row;
