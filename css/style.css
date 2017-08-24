@@ -1,0 +1,206 @@
+@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Abel);
+/* Base
+------------------------------------------------------------*/
+html {
+  font-size: 62.5%; }
+
+body {
+  color: #595959;
+  font-size: 1.4rem;
+  font-family: "游ゴシック", YuGothic, "メイリオ", Verdana, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+  line-height: 1.6;
+  letter-spacing: 0.1em;
+  background-color: #fff; }
+
+a {
+  color: #1234B2;
+  text-decoration: none; }
+  a:visited {
+    color: #0d2684; }
+  a:hover {
+    color: #0d2684; }
+  a:active {
+    color: #143bc9; }
+
+/* Align
+------------------------------------------------------------*/
+.text-center {
+  text-align: center; }
+
+/* Layout
+------------------------------------------------------------*/
+.block-center, section .container, #contents i {
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
+/* Font
+------------------------------------------------------------*/
+.abel, section h2, #contents h3, h3 {
+  font-family: 'Abel', sans-serif; }
+
+.uppercase, section h2 {
+  text-transform: uppercase; }
+
+/* Header
+------------------------------------------------------------*/
+/*.button-contact {
+  width: 20px;
+  height: 20px;
+  padding: 10px;
+  border: 2px solid $fontColor;
+  color: $fontColor;
+  text-align: center;
+  display: block;
+  float: right;
+  @include border-radius(4px);
+  font-size: 20px;
+  line-height: 0;
+  margin: 20px 20px 0 0;
+  &:visited {
+    color: $fontColor;
+  }
+}
+*/
+header .site-top {
+  width: 100%;
+  margin: auto;
+  padding: auto;
+  clear: both; }
+header .site-title {
+  font-size: 1.8rem;
+  line-height: normal; }
+  header .site-title span {
+    display: block;
+    font-size: 4.2rem;
+    padding: 20px;
+    color: #1234B2; }
+header .top-img {
+  display: block;
+  position: relative;
+  max-height: 200px;
+  height: auto;
+  width: 100%;
+  background-size: cover;
+  background-position: center center; }
+header p {
+  font-size: 1.6rem; }
+
+/* Header
+------------------------------------------------------------*/
+  /* Contents
+------------------------------------------------------------*/
+section {
+  padding: 30px 0; }
+  section .container {
+    width: 90%; }
+  section h2 {
+    font-size: 3.2rem; }
+
+#contents {
+  background-color: #1234B2; }
+  #contents .container {
+    display: -webkit-flex;
+    display: flex;
+    justify-content: space-between;
+    -webkit-flex-direction: column;
+    flex-direction: column; }
+  #contents h2 {
+    color: #fff;
+    margin-bottom: 60px; }
+  #contents .content-box {
+    -webkit-flex: 1;
+    flex: 1;
+    margin: 10px 0 10px 0;
+    padding: 0 0 20px 0;
+    background-color: #fff;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box; }
+  #contents .content-titlebox {
+    -webkit-flex: 1;
+    flex: 1;
+    margin: 10px 0;
+    padding: 10px 0;
+    background-color: #fff;
+    border-bottom: 1.5px solid #1234B2;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box; }
+  #contents p {
+    margin: 10px; }
+  #contents i {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 5px;
+    padding-top: 15px;
+    background-color: #1234B2;
+    font-size: 4.5rem;
+    color: #FFF;
+    text-align: center;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%; }
+  #contents h3 {
+    color: #1234B2;
+    margin-bottom: 10px;
+    font-size: 2.4rem;
+    font-weight: bold; }
+
+.end-button {
+  padding: 20px; }
+
+.register-button {
+  width: 150px;
+  padding: 20px;
+  border: 2px solid #ef5214;
+  color: #fff;
+  background-color: #ef5214;
+  text-align: center;
+  display: block;
+  float: center;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  font-size: 15px;
+  line-height: 0;
+  margin: 0 auto; }
+
+h3 {
+  color: #1234B2;
+  margin-bottom: 10px;
+  font-size: 2rem;
+  font-weight: bold; }
+
+footer {
+  background-color: #1234B2;
+  padding: 10px 0;
+  text-align: center;
+  color: #FFF; }
+
+@media (min-width: 768px) {
+  header .top-img {
+    display: block;
+    position: relative;
+    max-height: 500px;
+    height: auto;
+    width: 100%; }
+
+  #contents .container {
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    justify-content: space-between; }
+  #contents .content-box {
+    margin: 0 10px; }
+
+  .register-button:visited {
+    color: #595959; }
+  .register-button:hover {
+    border: 2px solid #ffa07a;
+    background-color: #ff7c47; } }
+
+/*# sourceMappingURL=style.css.map */
